@@ -36,4 +36,4 @@ parsed[0][0]
 parsed[1][0]
 ```
 
-Create a `csv-parsing.txt` file and write one sentence explaining what each line of code does.  
+Create a `csv-parsing.txt` file and write one sentence explaining what each line of the above code does.  If you aren't sure what it does, describe what you see happening.
