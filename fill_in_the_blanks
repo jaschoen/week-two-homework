@@ -1,0 +1,13 @@
+def #tells ruby to we want to make/define a function
+
+say_hello #name of the function
+
+(name) #tells ruby we want to use arguments, only one in this case
+
+puts (indented) #tells ruby to print (whatever comes next)
+
+"Hello" #String we want to print
+
+name #result of argument to display after "Hello"
+
+end (not indented) #tells ruby we're done defining this function

@@ -1,0 +1,13 @@
+require 'csv'  #returns "true", so...it's true that there's a .csv file in the directory?
+
+f = File.read('sample.csv')  #shows the contents of the file with newlines
+
+parsed = CSV.parse(f)  #defines a variable consisting of an array of each line (row) in the .csv file, including the empty lines as empty arrays
+
+parsed  #prints the above
+
+parsed[0]  #prints the data in the 1st row in the .csv file, the first row being in the "0" position (?)
+
+parsed[0][0]  #prints the data in the first column of the first row
+
+parsed[1][0]  #returns nil, as there is no data in the first column of the second row

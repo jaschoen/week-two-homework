@@ -1,0 +1,4 @@
+def price_of_gold_from_pounds(pounds)
+	price = pounds * 16.0 * 1336.0
+	puts "Your gold is worth $ #{price}!"
+	end
