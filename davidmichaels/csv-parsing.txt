@@ -1,0 +1,9 @@
+```ruby
+require 'csv' #This means we're requiring the module "csv"
+f = File.read('sample.csv') #This is a thing that reads the file. This fails hard if we invoked irb while not in the same working directory as the file!
+parsed = CSV.parse(f) #this puts the CSV file into a variable!
+parsed #Prints the csv file variable thing! I suspect this is a data type like a dictionary or list or array or something
+parsed[0] #prints the first line of the array/dict/list/potato
+parsed[0][0] #prints the first element (HELLO ZERO INDEXING) of the first line
+parsed[1][0] #prints the first element of the second line (HAHAHAHAHA ZERO INDEXING LOLOLOLOLOLOL)
+```
