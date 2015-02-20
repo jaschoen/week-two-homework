@@ -1,0 +1,45 @@
+require 'csv'
+-bring the csv method into the program
+f = File.read('sample.csv')
+-reads and stores contents of sample.csv into a new variable f as a big string of data
+parsed = CSV.parse(f)
+-parses csv into an array of 3 arrays
+parsed
+-returns the already parsed array
+parsed[0]
+-returns the first row of the parsed array
+parsed[0][0]
+-returns the first string in the first row of the parsed array
+parsed[1][0]
+-returns the first string in the second row of the parsed array
+
+
+Part 3
+C age =25 is the correct way
+
+def is define
+say_hello is the method name
+name is the arbitrary name of the argument the method takes
+puts prints to screen with a line after it
+"hello" is a string
+name is the argument passed to the method
+end tells the program it's the last line of the method
+
+part 4
+.join returns a string by converting each element of the array to a string separated by the given separator
+ex. 
+["a",\"b","c","d"].join #=> "abcd"
+["a",\"b","c","d"].join("-") #=> "a-b-c-d"
+
+.shift removes the first element in an array and returns it
+ex.
+args =["J", "A", "S"]
+args.shift #=> "J"
+args #=> ["A", "S"]
+
+.pop does the same thing, but for the last element in an array.  Pop it off the end and return it.
+
+
+for future homework, will want to 
+clone it, cd into it, mkdir there, cd into it, git checkout, git add . will add everything
+checkout a branch
